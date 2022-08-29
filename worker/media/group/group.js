@@ -16,14 +16,14 @@
              { 
               buttonId: `ahsudahlah`, 
               buttonText: { 
-               displayText: `Welcome 👋` 
+               displayText: `Welcome ðŸ‘‹` 
                }, type: 1 
               }
              ]
         sock.sendMessage(
          update.id, 
          { 
-         caption: `Hello @${num.split("@")[0]}\n\nNama Group : *${metadata.subject}*\n\nPemilik : *${metadata.owner.split('@')[0]}*\n\nID : ${metadata.id}\n\nMember : *${metadata.participants.length}*`,
+         caption: `Hello @${num.split("@")[0]} \n\nNama Group : *${metadata.subject}*\n\nPemilik : *${metadata.owner.split('@')[0]}*\n\nID : ${metadata.id}\n\nMember : *${metadata.participants.length}* Orang\n\nDeskripsi : ${metadata.desc}`,
          image: { url: ppuser },
          buttons: button, 
          footer: 'Ariel Sandy Permana', mentions: [num] })
@@ -34,7 +34,7 @@
              { 
               buttonId: `ahsudahlah`, 
               buttonText: { 
-               displayText: `Bye 👋` 
+               displayText: `Bye ðŸ‘‹` 
                }, type: 1 
               }
              ]
