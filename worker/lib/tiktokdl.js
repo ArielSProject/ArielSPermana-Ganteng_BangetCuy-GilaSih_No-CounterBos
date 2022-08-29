@@ -1,6 +1,6 @@
 const axios = require('axios')
 const cheerio = require('cheerio')
-author = 'ariel-sp';
+author = 'Ariel Sandy Permana';
 
 async function TiktokDownloader (url) {
     try {
